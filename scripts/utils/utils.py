@@ -1,6 +1,6 @@
 import os.path
 
-def create_experiment_path(exp_name):
+def create_experiment_path(exp_name: str):
     """
     Create the experiment path.
     :param exp_name: the name of the experiment.
@@ -15,7 +15,7 @@ def create_experiment_path(exp_name):
 
     return path
 
-def get_experiment_path(exp_name):
+def get_experiment_path(exp_name: str):
     """
     Return the experiment path.
     :param exp_name: the name of the experiment.

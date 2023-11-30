@@ -21,7 +21,6 @@ class Model(abc.ABC):
         """
         raise NotImplementedError("Subclasses should implement this method.")
 
-    @abc.abstractmethod
     def inference_forward(self, x):
         """
         Propagate the input through the model at inference time. If not implemented it calls the forward method.

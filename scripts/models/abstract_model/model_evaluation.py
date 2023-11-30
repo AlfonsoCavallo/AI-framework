@@ -2,7 +2,7 @@
 This script is an example of how an evaluation script should be implemented.
 """
 
-def evaluate(model, parameters):
+def evaluate(model, **parameters):
     """
     Perform the model's evaluation.
     :param model: the model to evaluate.

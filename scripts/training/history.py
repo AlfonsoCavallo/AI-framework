@@ -4,11 +4,11 @@ class Epoch:
     """
     This class is the epoch of a training identified with an index and containing a list of results.
     """
-    def __init__(self, index, results):
+    def __init__(self, index, results: list):
         """
         Initialize the epoch with its results.
         :param index: The index of the epoch.
-        :param results: A list of results.
+        :param results: A list of instances of class Result instances.
         """
         self.index = index
         self.results = results
@@ -39,7 +39,7 @@ class History:
         """
         self.epochs = []
 
-    def append_epoch(self, epoch):
+    def append_epoch(self, epoch: Epoch):
         """
         Append the epoch to the history.
         :param epoch: the epoch to append.

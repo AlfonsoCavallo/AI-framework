@@ -1,9 +1,7 @@
-from enum import Enum
-
 class LossFactory:
     """This class provides a static method to instantiate the losses by their name."""
     @staticmethod
-    def get_loss(name):
+    def get_loss(name: str):
         """
         Returns the class of the loss with the input name.
         :param name: the name of the loss.

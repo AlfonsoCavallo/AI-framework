@@ -2,7 +2,7 @@
 This script is an example of how a training script should be implemented.
 """
 
-def train(model, parameters):
+def train(model, **parameters):
     """
     Perform the model's training. A training can also live show and save metrics and artifacts.
     :param model: the model to train.
